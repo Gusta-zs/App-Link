@@ -21,7 +21,7 @@ export default function MyLinks() {
             <Title>Meus Links</Title>
 
             <ListLinks 
-                data={[ 1, 2, 5, 8, 15, 4, 12, 18, 3, 7, 10, 22, 155, 854]}
+                data={[ 1, 2]}
                 keyExtractor={ (item) => String(item.id) }
                 renderItem={ ({item}) => <ListItem data={item} />}
                 contentContainerStyle={{paddingBottom: 20}}
